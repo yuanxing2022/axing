@@ -4,7 +4,6 @@ from langchain.memory import ConversationBufferMemory
 from utils import get_chat_response
 
 st.title("💬 克隆DeepSeek-axing")
-"###### 请点击左侧箭头，输入API Key"
 
 # with st.sidebar:
 #     openai_api_key = st.text_input("请输入OpenAI API Key：", type="password")
