@@ -6,6 +6,10 @@ from utils import get_chat_response
 st.title("💬 克隆DeepSeek-axing")
 "###### 请点击左侧箭头，输入API Key"
 
+# with st.sidebar:
+#     openai_api_key = st.text_input("请输入OpenAI API Key：", type="password")
+#     st.markdown("[获取OpenAI API key](https://platform.openai.com/account/api-keys)")
+
 openai_api_key = st.text_input("请输入DeepSeek API Key：", type="password")
 st.markdown("[若无DeepSeek API key，点此获取](https://deepseek.com)")
 
